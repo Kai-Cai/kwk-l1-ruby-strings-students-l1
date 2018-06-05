@@ -8,3 +8,11 @@ def say_hello
 end
 
 say_hello
+
+def say_hello
+  puts "Hello #{your name}"
+end
+
+say_hello("Charlie")
+say_hello("Randi")
+say_hello("Gabriella")

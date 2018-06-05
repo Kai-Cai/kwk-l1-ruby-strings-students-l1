@@ -1,3 +1,5 @@
+
+#Long form - multiple variables
 #def say_hello
   #your_name = "Charlie"
   #puts "Hello #{your_name}!"
@@ -11,6 +13,7 @@
 
 
 
+#Short form argument
 #def say_hello(your_name)
   #puts "Hello #{your_name}!"
 #end
@@ -21,6 +24,7 @@
 
 
 
+#miltiple arguments
 #def say_hello(your_name, my_name, time_of_day)
   #puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}?"
 #end
@@ -29,7 +33,7 @@
 
 
 
-
+#multiple arguments with a defalt argument
 #def say_hello(your_name, my_name = "Kaia", time_of_day)
   #puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}?"
 #end
@@ -38,10 +42,11 @@
 
 
 
-def say_hello(your_name, my_name = "Kaia", time_of_day)
-  puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}?"
-end
+#multiple arguments with an overrriden defalt
+#def say_hello(your_name, my_name = "Kaia", time_of_day)
+  #puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}?"
+#end
 
-say_hello("Charlie", "Brex", "morning")
+#say_hello("Charlie", "Brex", "morning")
 
 

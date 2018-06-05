@@ -1,16 +1,7 @@
-def say_hello
-  your_name = "Charlie"
-  puts "Hello #{your_name}!"
-  her_name = "Randi"
-  puts "Hello #{her_name}!"
-  her_name2 = "Gabriella"
-  puts "Hello #{her_name2}!"
-end
+#z
 
-say_hello
-
-def say_hello2(your_name)
-  puts "Hello #{your_name}!"
+def say_hello(your_name, my_name, time_of_day)
+  puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}"
 end
 
 say_hello2("Charlie")

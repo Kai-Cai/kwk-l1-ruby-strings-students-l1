@@ -30,5 +30,5 @@ def say_hello(your_name, my_name = "Kaia", time_of_day)
   puts "Hello #{your_name}! I'm #{my_name}.  How was your #{time_of_day}?"
 end
 
-say_hello("Charlie", , "morning")
+say_hello("Charlie", "morning")
 

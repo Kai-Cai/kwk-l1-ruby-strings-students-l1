@@ -9,10 +9,10 @@ end
 
 say_hello
 
-def say_hello
+def say_hello2
   puts "Hello #{your name}"
 end
 
-say_hello("Charlie")
-say_hello("Randi")
-say_hello("Gabriella")
+say_hello2("Charlie")
+say_hello2("Randi")
+say_hello2("Gabriella")
